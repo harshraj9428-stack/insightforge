@@ -1,0 +1,61 @@
+Date,Product,Category,Region,Units Sold,Revenue,Customer ID
+2023-01-01,Widget A,Electronics,North,10,150.5,CUST001
+2023-01-02,Widget B,Clothing,South,5,75.0,CUST002
+2023-01-03,Gadget X,Clothing,East,8,120.0,CUST003
+2023-01-04,Widget A,Electronics,West,12,180.0,CUST004
+2023-01-05, ,Electronics,North,,200.0,CUST005  # Missing Product
+2023-01-06,Gadget Y,Books,South,15,90.0,  # Missing Customer ID
+2023-01-07,Widget B,Clothing,East,3,45.0,CUST007
+2023-01-08,Book Z,Books,West,20,100.0,CUST008
+2023-01-09,Widget A,Electronics,North,7,105.0,CUST009
+2023-01-10,Gadget X,Clothing,South,11,165.0,CUST010
+2023-01-11,Widget B,Clothing,West,4,60.0,  # Missing Customer
+2023-01-12, ,Books,East,,80.0,CUST012  # Missing Product & Units
+2023-01-13,Gadget Y,Books,North,18,108.0,CUST013
+2023-01-14,Book Z,Books,South,22,110.0,CUST014
+2023-01-15,Widget A,Electronics,East,9,135.0,CUST015
+2023-01-16,Widget B,Clothing,West,6,90.0,CUST016  # Duplicate-like with variation
+2023-01-17,Gadget X,Clothing,North,13,195.0,CUST017
+2023-01-18, ,Electronics,South,2,30.0,CUST018  # Missing Product
+2023-01-19,Gadget Y,Books,East,16,96.0,  # Missing Customer
+2023-01-20,Book Z,Books,West,25,125.0,CUST020
+2023-01-21,Widget A,Electronics,North,14,210.0,CUST021
+2023-01-22,Widget B,Clothing,South,7,105.0,CUST022
+2023-01-23,Gadget X,Clothing,East,10,150.0,CUST023
+2023-01-24,Widget A,Electronics,West,11,165.0,CUST024  # Duplicate of row 4-ish
+2023-01-25,Gadget Y,Books,North,19,114.0,CUST025
+2023-01-26,Book Z,Books,South,21,105.0,  # Missing Customer
+2023-01-27, ,Clothing,East,,140.0,CUST027  # Missing Product & Units
+2023-01-28,Widget B,Clothing,West,5,75.0,CUST028
+2023-01-29,Gadget X,Clothing,North,12,180.0,CUST029
+2023-01-30,Widget A,Electronics,South,8,120.0,CUST030
+2023-01-31,Book Z,Books,East,23,115.0,CUST031
+2023-02-01,Gadget Y,Books,West,17,102.0,CUST032
+2023-02-02,Widget A,Electronics,North,15,225.0,CUST033
+2023-02-03,Widget B,Clothing,South,9,135.0,CUST034
+2023-02-04, ,Electronics,East,4,60.0,  # Missing Product & Customer
+2023-02-05,Gadget X,Clothing,West,14,210.0,CUST035
+2023-02-06,Book Z,Books,North,26,130.0,CUST036
+2023-02-07,Widget A,Electronics,South,16,240.0,CUST037
+2023-02-08,Widget B,Clothing,East,2,30.0,CUST038
+2023-02-09,Gadget Y,Books,West,20,120.0,CUST039
+2023-02-10, ,Clothing,North,,160.0,CUST040  # Missing Product & Units
+2023-02-11,Gadget X,Clothing,South,3,45.0,  # Missing Customer
+2023-02-12,Book Z,Books,East,24,120.0,CUST042
+2023-02-13,Widget A,Electronics,West,13,195.0,CUST043
+2023-02-14,Widget B,Clothing,North,10,150.0,CUST044
+2023-02-15,Gadget Y,Books,South,18,108.0,CUST045
+2023-02-16, ,Electronics,East,6,90.0,CUST046  # Missing Product
+2023-02-17,Gadget X,Clothing,West,15,225.0,CUST047
+2023-02-18,Book Z,Books,North,27,135.0,  # Missing Customer
+2023-02-19,Widget A,Electronics,South,17,255.0,CUST049
+2023-02-20,Widget B,Clothing,East,8,120.0,CUST050
+2023-02-21, ,Books,West,,95.0,CUST051  # Missing Product & Units
+2023-02-22,Gadget Y,Books,North,21,126.0,CUST052
+2023-02-23,Book Z,Books,South,19,95.0,CUST053
+2023-02-24,Widget A,Electronics,East,18,270.0,CUST054
+2023-02-25,Widget B,Clothing,West,11,165.0,CUST055
+2023-02-26,Gadget X,Clothing,North,7,105.0,  # Missing Customer
+2023-02-27, ,Electronics,South,5,75.0,CUST057  # Missing Product
+2023-02-28,Book Z,Books,East,28,140.0,CUST058
+2023-02-30,Gadget Y,Books,West,22,132.0,CUST059  # Invalid date (Feb 30)
